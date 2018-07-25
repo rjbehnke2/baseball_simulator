@@ -1,5 +1,6 @@
-from pybaseball import batting_stats_range
+from pybaseball import batting_stats
 
-hitter_data = batting_stats_range("2015-01-01", "2018-01-01")
+hitter_data = batting_stats(2015, 2017)
+
 
 print(hitter_data)
